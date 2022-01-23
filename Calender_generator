@@ -1,4 +1,5 @@
 from tkinter import *
+
 import calendar
 
 
@@ -6,7 +7,7 @@ text = calendar.calendar(2022)
 
 # creating tkinter window
 root = Tk()
-root = geometry("500x600")
+root.geometry("500x600")
 root.title('2022 Calendar')
 lable1=Label(root, text ='CALENDAR', bg ='dark grey', font = ('times', 28, 'bold'))
 lable1.grid (row =1, column =1)
